@@ -1,0 +1,67 @@
+<mxfile modified="2023-11-03T08:14:07.328Z" host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.3 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="kypz-CuNip0dLwyuTchD" version="22.0.3" type="device">
+  <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
+    <mxGraphModel dx="2589" dy="1657" grid="1" gridSize="4" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="eYxBuY7Py7PClH6O-nrH-7" value="Corporate data center" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_corporate_data_center;strokeColor=#909090;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#1A1A1A;dashed=0;rounded=0;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-554" y="-622" width="308" height="416" as="geometry" />
+        </mxCell>
+        <mxCell id="eYxBuY7Py7PClH6O-nrH-12" value="&lt;font style=&quot;font-size: 14px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Architects+Daughter&quot; face=&quot;Architects Daughter&quot;&gt;DATABASE&lt;br&gt;PostgreSQL&lt;br&gt;(source)&amp;nbsp;&lt;/font&gt;" style="outlineConnect=0;fontColor=#1A1A1A;fillColor=#F5AB50;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.generic_database;rounded=0;labelBackgroundColor=none;" parent="eYxBuY7Py7PClH6O-nrH-7" vertex="1">
+          <mxGeometry x="148" y="100" width="59" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="eYxBuY7Py7PClH6O-nrH-38" value="&lt;font style=&quot;font-size: 40px;&quot;&gt;DMS - Continuous Replication&lt;br&gt;Homogeneous Migration (Replatform)&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Architects Daughter;fontColor=#1A1A1A;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-362" y="-808" width="708" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="y_hJPUTwGHVDO47t9u5H-1" value="Region" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_region;strokeColor=#147EBA;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#147EBA;dashed=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-102" y="-622" width="640" height="416" as="geometry" />
+        </mxCell>
+        <mxCell id="y_hJPUTwGHVDO47t9u5H-3" value="Public subnet" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_security_group;grStroke=0;strokeColor=#248814;fillColor=#E9F3E6;verticalAlign=top;align=left;spacingLeft=30;fontColor=#248814;dashed=0;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-26" y="-558" width="260" height="288" as="geometry" />
+        </mxCell>
+        <mxCell id="y_hJPUTwGHVDO47t9u5H-8" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#ED7100;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.instance2;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;rounded=0;" parent="y_hJPUTwGHVDO47t9u5H-3" vertex="1">
+          <mxGeometry x="50" y="32" width="124" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="y_hJPUTwGHVDO47t9u5H-9" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#0000CC;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.database_migration_workflow_job;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;rounded=0;" parent="y_hJPUTwGHVDO47t9u5H-3" vertex="1">
+          <mxGeometry x="99.18" y="52" width="25.64" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="y_hJPUTwGHVDO47t9u5H-10" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Full load + &lt;br style=&quot;&quot;&gt;CDC&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Architects Daughter;rounded=0;" parent="y_hJPUTwGHVDO47t9u5H-3" vertex="1">
+          <mxGeometry x="68" y="80" width="88" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="y_hJPUTwGHVDO47t9u5H-12" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Architects+Daughter&quot; face=&quot;Architects Daughter&quot; style=&quot;font-size: 17px;&quot;&gt;AWS DMS&lt;br&gt;Replication&lt;br&gt;Instance&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="y_hJPUTwGHVDO47t9u5H-3" vertex="1">
+          <mxGeometry x="60" y="156" width="104" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="y_hJPUTwGHVDO47t9u5H-2" value="VPC" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_vpc;strokeColor=#248814;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#AAB7B8;dashed=0;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-70" y="-594" width="576" height="356" as="geometry" />
+        </mxCell>
+        <mxCell id="y_hJPUTwGHVDO47t9u5H-4" value="Private subnet" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_security_group;grStroke=0;strokeColor=#147EBA;fillColor=#E6F2F8;verticalAlign=top;align=left;spacingLeft=30;fontColor=#147EBA;dashed=0;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;rounded=0;" parent="y_hJPUTwGHVDO47t9u5H-2" vertex="1">
+          <mxGeometry x="336" y="36" width="195" height="288" as="geometry" />
+        </mxCell>
+        <mxCell id="y_hJPUTwGHVDO47t9u5H-11" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#0000CC;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.aurora_instance;" parent="y_hJPUTwGHVDO47t9u5H-4" vertex="1">
+          <mxGeometry x="60" y="48" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="y_hJPUTwGHVDO47t9u5H-13" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Architects+Daughter&quot; face=&quot;Architects Daughter&quot; style=&quot;font-size: 16px;&quot;&gt;Amazon Aurora&amp;nbsp;&lt;br&gt;PostgreSQL Serverless&lt;br&gt;(target)&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="y_hJPUTwGHVDO47t9u5H-4" vertex="1">
+          <mxGeometry x="-5" y="124" width="200" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="y_hJPUTwGHVDO47t9u5H-16" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;hachureGap=4;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;fontColor=default;shape=connector;fillColor=#dae8fc;strokeWidth=2;sketch=1;curveFitting=1;jiggle=2;" parent="y_hJPUTwGHVDO47t9u5H-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-108" y="80" as="sourcePoint" />
+            <mxPoint x="52" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fPEKX6Ttl3wAnktyUxPx-41" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;hachureGap=4;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;fontColor=default;shape=connector;fillColor=#dae8fc;strokeWidth=2;sketch=1;curveFitting=1;jiggle=2;" parent="y_hJPUTwGHVDO47t9u5H-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-264" y="116" as="sourcePoint" />
+            <mxPoint x="84" y="116" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y_hJPUTwGHVDO47t9u5H-18" value="&lt;font style=&quot;font-size: 18px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Architects+Daughter&quot; face=&quot;Architects Daughter&quot;&gt;Data&amp;nbsp; migration&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-250" y="-516" width="148" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="y_hJPUTwGHVDO47t9u5H-19" value="&lt;font style=&quot;font-size: 14px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Architects+Daughter&quot; face=&quot;Architects Daughter&quot;&gt;DIRECT CONNECT&lt;br&gt;OR &lt;br&gt;VPN&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-244" y="-432" width="140" height="64" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
