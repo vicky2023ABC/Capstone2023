@@ -11,9 +11,11 @@ Para ello se requiere que la arquitectura resuelva los problemas y requisitos pl
 - Que permita la adición de nuevas funciones en el futuro sin afectar los servicios en operación
 - Que haga un uso eficiente de los recursos asignados
 - Contar con mecanismos que mejoren los aspectos de seguridad, asegurando que solo los usuarios y aplicaciones autorizadas puedan utilizar los servicios web
+  ![image](https://github.com/vicky2023ABC/Capstone2023/assets/150178798/c540a4f0-491c-4e9f-878d-59efd4d9b266)
+
 
 ## Decisión
-- Basándonos en los requerimientos solicitados, consideramos que una arquitectura totalmente serverless, se adapta perfectamente ya que proporciona.
+#### Basándonos en los requerimientos solicitados, consideramos que una arquitectura totalmente serverless, se adapta perfectamente ya que proporciona:
 - Escalabilidad automática y Alta disponibilidad: La arquitectura serverless por diseño es altamente disponible y se escala automáticamente en función de la demanda, lo que significa que puede manejar picos de tráfico sin necesidad de intervención manual.
 - Costos reducidos: Solo se paga por los recursos que se utilizan, lo que puede resultar en un ahorro significativo en comparación con la infraestructura tradicional, haciendo un uso eficiente de los recursos y optimizando costos
 - Desarrollo ágil: Permite a los desarrolladores centrarse en escribir código y crear funcionalidades, en lugar de preocuparse por la gestión de servidores. Permitiendo además la evolución de los servicios mediante despliegues parciales añadiendo nuevas funcionalidades sin afectar a los servicios en operación
