@@ -1,4 +1,4 @@
-## Sistema de Inversiones - Migración backend Mobile desde Onprem a AWS.
+## Sistema de Inversiones - Migración y modernización backend Mobile desde Onprem a AWS.
 
 Nuestro cliente ha desarrollado una aplicación móvil, esta aplicación tiene un backend conformado por una arquitectura de monolito, donde tanto la aplicación de backend como la base de datos están alojadas en el mismo servidor dentro del datacenter corporativo del cliente. La empresa quiere modernizar su backend, planteando migrar a la nube para así poder aprovechar los beneficios que esta provee.
 Para ello se requiere que la arquitectura resuelva los problemas y requisitos planteados a continuación:
