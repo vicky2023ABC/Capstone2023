@@ -21,14 +21,22 @@ Para ello se requiere que la arquitectura resuelva los problemas y requisitos pl
 - **Mantenimiento reducido**: Al no tener que administrar servidores, se reduce la carga de mantenimiento y actualizaciones de infraestructura.
 
 #### Nuestra aplicación monolito (onprem) deberá pasar por diversas fases antes de convertirse en una arquitectura totalmente serverless
-- [Fase 1: Evaluación y movilización](https://github.com/vicky2023ABC/Capstone2023/blob/main/Diagrams/Phase%201%20Assess%20and%20Mobilize.drawio.png)-->[ADR](https://github.com/vicky2023ABC/Capstone2023/blob/main/ADRs/ADR%20Phase%201%20Assess%20and%20Mobilize.docx)
+- [Fase 1: Evaluación y movilización](https://github.com/vicky2023ABC/Capstone2023/blob/main/Diagrams/Phase%201%20Assess%20and%20Mobilize.drawio.png)
+    - [ADR](https://github.com/vicky2023ABC/Capstone2023/blob/main/ADRs/ADR%20Phase%201%20Assess%20and%20Mobilize.md)
 - [Fase 2: Migración de la base de datos (DMS+CDC)](https://github.com/vicky2023ABC/Capstone2023/blob/main/Diagrams/Phase%202%20DMS-Database%20Migration%20v2.drawio.png)
+    - [ADR](https://github.com/vicky2023ABC/Capstone2023/blob/main/ADRs/ADR%20Phase%202%20DMS-Database%20Migration.md)
 - [Fase 2.1 Migración backend APP (MGN)](https://github.com/vicky2023ABC/Capstone2023/blob/main/Diagrams/Phase%202.1%20Rehosting%20Server%20with%20Application%20Migration%20Service%20(MGN)%20v2%20%20V2.drawio.png)
+    - [ADR](https://github.com/vicky2023ABC/Capstone2023/blob/main/ADRs/ADR%20Phase%202.1%20Rehosting%20Server%20with%20Application%20Migration%20Service%20(MGN)%20.md)
 - [Fase 3 Elección de patrones de migración](https://github.com/vicky2023ABC/Capstone2023/blob/main/Diagrams/Phase%203%20Choosing%20Monolith%20Decomposition%20pattern-Stangler%20Fig%20Pattern.drawio.png)
+    - [ADR](https://github.com/vicky2023ABC/Capstone2023/blob/main/ADRs/ADR%20Phase%203%20Choosing%20Monolith%20Decomposition%20pattern.md)
 - [Fase 3.1 Romper el monolito en microservicios](https://github.com/vicky2023ABC/Capstone2023/blob/main/Diagrams/Phase%203.1.1%20Break%20the%20monolith%20into%20microservices%20(Lambda)%2BHA%20Monolith.drawio.png)
+    - [ADR](https://github.com/vicky2023ABC/Capstone2023/blob/main/ADRs/ADR%20Phase%203.1%20Break%20the%20monolith%20into%20microservices%20(Lambda).md)
 - [Fase 4 CI/CD Pipeline](https://github.com/vicky2023ABC/Capstone2023/blob/main/Diagrams/Phase%204.0%20CI-CD%20Pipeline.%20Mobile%20Backend%20Serverless%20.drawio.png)
+    - [ADR](https://github.com/vicky2023ABC/Capstone2023/blob/main/ADRs/ADR%20Phase%204.0%20CI-CD%20Pipeline.%20Mobile%20Backend%20Serverless.md)
 - [Fase 4.1 Mobile Backend Server](https://github.com/vicky2023ABC/Capstone2023/blob/main/Diagrams/Phase%204.1%20Mobile%20Backend%20Serverless%20V3.drawio.png)
+    - [ADR](https://github.com/vicky2023ABC/Capstone2023/blob/main/ADRs/ADR%20Phase%204.1%20Mobile%20Backend%20Serverless.md)
 - [Fase 4.2 Disaster Recovery](https://github.com/vicky2023ABC/Capstone2023/blob/main/Diagrams/Phase%204.2%20Mobile%20Backend%20Serverless%20V6con%20DR.drawio.png)
+    - [ADR](https://github.com/vicky2023ABC/Capstone2023/blob/main/ADRs/ADR%20Phase%204.2%20Mobile%20Backend%20Serverless%20with%20DR.md)
 
 ## Consecuencias
 
