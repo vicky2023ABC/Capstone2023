@@ -20,7 +20,7 @@ Para ello se requiere que la arquitectura resuelva los problemas y requisitos pl
 - **Desarrollo ágil**: Permite a los desarrolladores centrarse en escribir código y crear funcionalidades, en lugar de preocuparse por la gestión de servidores. Permitiendo además la evolución de los servicios mediante despliegues parciales añadiendo nuevas funcionalidades sin afectar a los servicios en operación
 - **Mantenimiento reducido**: Al no tener que administrar servidores, se reduce la carga de mantenimiento y actualizaciones de infraestructura.
 
-#### Nuestra aplicación monolito (onprem) deberá pasar por diversas fases antes de convertirse en una arquitectura totalmente serverless
+#### Nuestra aplicación monolito (onprem) deberá pasar por diversas fases antes de convertirse en una arquitectura de microservicios totalmente serverless
 - [Fase 1: Evaluación y movilización](https://github.com/vicky2023ABC/Capstone2023/blob/main/Diagrams/Phase%201%20Assess%20and%20Mobilize.drawio.png)
     - [ADR](https://github.com/vicky2023ABC/Capstone2023/blob/main/ADRs/ADR%20Phase%201%20Assess%20and%20Mobilize.md)
 - [Fase 2: Migración de la base de datos (DMS+CDC)](https://github.com/vicky2023ABC/Capstone2023/blob/main/Diagrams/Phase%202%20DMS-Database%20Migration%20v2.drawio.png)
