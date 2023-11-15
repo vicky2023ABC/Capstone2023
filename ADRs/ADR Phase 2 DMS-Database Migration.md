@@ -20,7 +20,7 @@ Aceptada
 ## Compliance
 -	Nuestro cliente opera en Europa y Estados Unidos Por lo que ha de cumplir con los estándares GDPR e HIPAA)
 ## Procedimiento
-(https://catalog.workshops.aws/well-architected-migration/en-US/2-migration/1-initial-credentials-setup/2-quotas)
+(https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/migrate-an-on-premises-postgresql-database-to-aurora-postgresql.html)
 -	Para que nuestra migración se realice de forma privada y segura realizaremos una conexión mediante vpn entre nuestro data center onprem y nuestra vpc.
 -	Crearemos la instancia de replicación
 -	Crearemos los endpoint de origen (nuestra base de datos onprem) y destino (Aurora Serverless (PostgreSQL)).
