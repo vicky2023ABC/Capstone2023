@@ -1,3 +1,5 @@
+#Configuración Inicial
+
 Asegúrate de ver dos directorios en el explorador de archivos de AWS Cloud9:
 
 - **application:** El directorio de la aplicación contiene código de ejemplo para la aplicación de inventario. Este código es similar al que tendrías en el backend de tu aplicación de inventario real.
