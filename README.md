@@ -58,4 +58,20 @@ Para ello se requiere que la arquitectura resuelva los problemas y requisitos pl
 - **Seguridad**: La seguridad es un problema importante en cualquier arquitectura, pero la arquitectura serverless puede presentar desafíos únicos. Por ejemplo, el ritmo rápido de cambios en la aplicación , donde las actualizaciones frecuentes pueden introducir nuevas vulnerabilidades, o la gestión de identidad y el control de acceso, la cual debe ser sólida para evitar accesos no autorizados.
 ## Compliance
 - Nuestro cliente opera en Europa y Estados Unidos Por lo que ha de cumplir con los estándares GDPR e HIPAA)
+## Capstone-Setup
+
+En cuanto a la infrastructura, nos hemos centrado en montar el core de nuestra solución de microservicios totalmente serverless usando:
+
+- Amazon Aurora Serverless para almacenamiento de datos, incluida la API de datos para acceso a la base de datos mediante HTTP desde tu función Lambda.
+- AWS Secrets Manager para almacenar las credenciales de nuestra base de datos al utilizar la API de datos.
+- Amazon Cognito para el registro y autenticación de usuarios.
+- AWS Lambda para la computación.
+- Amazon API Gateway para el acceso basado en HTTP a tu función Lambda.
+
+  Podéis acceder a nuestra solución en:
+
+  
+
+
+
 
