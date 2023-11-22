@@ -59,16 +59,15 @@ Para ello se requiere que la arquitectura resuelva los problemas y requisitos pl
 ## Compliance
 - Nuestro cliente opera en Europa y Estados Unidos Por lo que ha de cumplir con los estándares GDPR e HIPAA)
 ## Capstone-Setup
-
 En cuanto a la infrastructura, nos hemos centrado en montar el core de nuestra solución de microservicios totalmente serverless usando:
-
-- Amazon Aurora Serverless para almacenamiento de datos, incluida la API de datos para acceso a la base de datos mediante HTTP desde tu función Lambda.
-- AWS Secrets Manager para almacenar las credenciales de nuestra base de datos al utilizar la API de datos.
-- Amazon Cognito para el registro y autenticación de usuarios.
-- AWS Lambda para la computación.
-- Amazon API Gateway para el acceso basado en HTTP a tu función Lambda.
-
-  Podéis acceder a nuestra solución en:
+- **Amazon Aurora Serverless** para almacenamiento de datos, incluida la API de datos para acceso a la base de datos mediante HTTP desde tu función Lambda.
+- **AWS Secrets Manager** para almacenar las credenciales de nuestra base de datos al utilizar la API de datos.
+- **Amazon Cognito** para el registro y autenticación de usuarios.
+- **AWS Lambda** para la computación.
+- **Amazon API Gateway** para el acceso basado en HTTP a tu función Lambda.
+- Podéis acceder a nuestra solución en:
+  
+  https://github.com/vicky2023ABC/Capstone2023/tree/main/Capstone-setup
 
   
 
