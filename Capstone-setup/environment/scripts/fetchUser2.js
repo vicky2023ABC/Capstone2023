@@ -49,4 +49,4 @@ const fetchUser = async (userId) => {
   return result[0]
 }
 
-fetchUser(52).then((result) => console.log(JSON.stringify(result, null, 2)))
+fetchUser(22).then((result) => console.log(JSON.stringify(result, null, 2)))
