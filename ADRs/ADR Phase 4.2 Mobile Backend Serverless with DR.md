@@ -7,7 +7,7 @@ Aceptada
 ## Contexto
 -	Ya tenemos diseñada nuestra arquitectura 100% serverless, que aunque es altamente disponible y escalable a nivel de región gracias a su diseño, ¿Que ocurriría si la región donde tenemos alojada nuestra infraestructura se cae? ¿Cual sería nuestro RPO y RTO?. 
 ## Decisión
--	Teniendo en cuenta que nuestra aplicación se basa en un modelo serverless, es posible tener un DR active-active por un pequeño coste, lo que nos permitirá tener una RPO maximo de 30 segundos y un RTO inferior a 1 minuto. Según compliance tenemos clientes en Europa y Estados unidos por lo que una arquitectura DR- Active-active encaja perfectamente para cumplir los requisitos SLA. Además, el uso de Cloudfront como ya vimos nos aportará mejor latencia y rendimiento.
+-	Teniendo en cuenta que nuestra aplicación se basa en un modelo serverless, es posible tener un DR active-active por un pequeño coste, lo que nos permitirá tener una RPO maximo de 15 minutos  y un RTO inferior a 1 minuto. Según compliance tenemos clientes en Europa y Estados unidos por lo que una arquitectura DR- Active-active encaja perfectamente para cumplir los requisitos SLA. Además, el uso de Cloudfront como ya vimos nos aportará mejor latencia y rendimiento.
 - Como consideraciones a la hora de diseñar nuestro DR hemos identificado y dividido los servicios de AWS en 3 subgrupos amplios:
     -	**Servicios de datos persistentes**: en nuestro caso son serían los servicios de S3 y Aurora Serverless, los cuales deben ser implementados sin pérdida de datos.
     -	**Servicios basados en Código**: que serían servicios como Api Gateway y Lambda los cuales no almacenan ningún tipo de datos y están basado en configuraciones.
@@ -48,7 +48,7 @@ Aceptada
 
 - **Por último, afrontamos el flujo de la replicación de los datos persistentes.**
      - **6º** Nuestra base de datos está configurada a modo base de datos global con un clúster primario en la región de Europa y uno secundario en Estados unidos, lo que brinda da la capacidad de replicar los datos sin impacto en el rendimiento en la base de datos y permitiendo lecturas locales en cada región con baja latencia. La conmutación por error se puede completar en menos de 1 minuto. En este paso se implementa Write forwarding en nuestra base de datos Aurora Serverless, lo que reenviará las solicitudes de escritura al clúster primario para después replicarlo en el clúster secundario, esto permite también que la implementación de la aplicación sea independiente de los puntos finales.
-    - **7º** Activamos la replicación Bidireccional de S3 los que nos permitirá replicar cualquier documento agregado al bucket de S3 en esa región, estando disponible de forma casi inmediata la otra. Se ha tenido en cuenta que los archivos que se van a almacenar en nuestro bucket de S3 son inferiores a 10MB, tomando una velocidad mínima de 10 Mbps la cual es bastante reducida, obtenemos que en ningún caso nuestro RPO será superior a 30 segundos.
+    - **7º** Activamos la replicación Bidireccional de S3 los que nos permitirá replicar  cualquier documento agregado al bucket de S3 en esa región,  segundos usando S3 RTC garantizaremos que el 99,99% objetos se replicarán en 15 minutos, siendo este nuestro RPO máximo.   
 ## Conclusión
 - El costo adicional de aplicar DR a nuestra infraestructura backend serverless es relativamente bajo si tenemos en cuenta que eliminamos el tiempo de inactividad en caso de interrupción regional, no olvidar nuestra capa lógica al ser serverless solo pagará el número de solicitudes procesadas suponiendo un gran ahorro.
 
@@ -58,5 +58,6 @@ Aceptada
 -	Changelog:
     -	0.1: Versión Inicial propuesta.
     -	0.2: Modificaciones propuestas.
+    -	0.3: Modificaciones 
 
 
